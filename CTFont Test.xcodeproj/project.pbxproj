@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6FBA87324AE460A003ED9F3 /* CTFont_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FBA87224AE460A003ED9F3 /* CTFont_TestApp.swift */; };
+		E6FBA87524AE460A003ED9F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FBA87424AE460A003ED9F3 /* ContentView.swift */; };
+		E6FBA87724AE460B003ED9F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6FBA87624AE460B003ED9F3 /* Assets.xcassets */; };
+		E6FBA87A24AE460B003ED9F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6FBA87924AE460B003ED9F3 /* Preview Assets.xcassets */; };
+		E6FBA88524AE460B003ED9F3 /* CTFont_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FBA88424AE460B003ED9F3 /* CTFont_TestTests.swift */; };
+		E6FBA89024AE460B003ED9F3 /* CTFont_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FBA88F24AE460B003ED9F3 /* CTFont_TestUITests.swift */; };
+		E6FBA89E24AE718E003ED9F3 /* Custom Font (ISSUE HERE).swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FBA89D24AE718E003ED9F3 /* Custom Font (ISSUE HERE).swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6FBA88124AE460B003ED9F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6FBA86724AE460A003ED9F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6FBA86E24AE460A003ED9F3;
+			remoteInfo = "CTFont Test";
+		};
+		E6FBA88C24AE460B003ED9F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6FBA86724AE460A003ED9F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6FBA86E24AE460A003ED9F3;
+			remoteInfo = "CTFont Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6FBA86F24AE460A003ED9F3 /* CTFont Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CTFont Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6FBA87224AE460A003ED9F3 /* CTFont_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTFont_TestApp.swift; sourceTree = "<group>"; };
+		E6FBA87424AE460A003ED9F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E6FBA87624AE460B003ED9F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6FBA87924AE460B003ED9F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E6FBA87B24AE460B003ED9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6FBA88024AE460B003ED9F3 /* CTFont TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CTFont TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6FBA88424AE460B003ED9F3 /* CTFont_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTFont_TestTests.swift; sourceTree = "<group>"; };
+		E6FBA88624AE460B003ED9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6FBA88B24AE460B003ED9F3 /* CTFont TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CTFont TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6FBA88F24AE460B003ED9F3 /* CTFont_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTFont_TestUITests.swift; sourceTree = "<group>"; };
+		E6FBA89124AE460B003ED9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6FBA89D24AE718E003ED9F3 /* Custom Font (ISSUE HERE).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Custom Font (ISSUE HERE).swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6FBA86C24AE460A003ED9F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FBA87D24AE460B003ED9F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FBA88824AE460B003ED9F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6FBA86624AE460A003ED9F3 = {
+			isa = PBXGroup;
+			children = (
+				E6FBA87124AE460A003ED9F3 /* CTFont Test */,
+				E6FBA88324AE460B003ED9F3 /* CTFont TestTests */,
+				E6FBA88E24AE460B003ED9F3 /* CTFont TestUITests */,
+				E6FBA87024AE460A003ED9F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6FBA87024AE460A003ED9F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6FBA86F24AE460A003ED9F3 /* CTFont Test.app */,
+				E6FBA88024AE460B003ED9F3 /* CTFont TestTests.xctest */,
+				E6FBA88B24AE460B003ED9F3 /* CTFont TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6FBA87124AE460A003ED9F3 /* CTFont Test */ = {
+			isa = PBXGroup;
+			children = (
+				E6FBA87224AE460A003ED9F3 /* CTFont_TestApp.swift */,
+				E6FBA89D24AE718E003ED9F3 /* Custom Font (ISSUE HERE).swift */,
+				E6FBA87424AE460A003ED9F3 /* ContentView.swift */,
+				E6FBA87624AE460B003ED9F3 /* Assets.xcassets */,
+				E6FBA87B24AE460B003ED9F3 /* Info.plist */,
+				E6FBA87824AE460B003ED9F3 /* Preview Content */,
+			);
+			path = "CTFont Test";
+			sourceTree = "<group>";
+		};
+		E6FBA87824AE460B003ED9F3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E6FBA87924AE460B003ED9F3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E6FBA88324AE460B003ED9F3 /* CTFont TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6FBA88424AE460B003ED9F3 /* CTFont_TestTests.swift */,
+				E6FBA88624AE460B003ED9F3 /* Info.plist */,
+			);
+			path = "CTFont TestTests";
+			sourceTree = "<group>";
+		};
+		E6FBA88E24AE460B003ED9F3 /* CTFont TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6FBA88F24AE460B003ED9F3 /* CTFont_TestUITests.swift */,
+				E6FBA89124AE460B003ED9F3 /* Info.plist */,
+			);
+			path = "CTFont TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6FBA86E24AE460A003ED9F3 /* CTFont Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6FBA89424AE460B003ED9F3 /* Build configuration list for PBXNativeTarget "CTFont Test" */;
+			buildPhases = (
+				E6FBA86B24AE460A003ED9F3 /* Sources */,
+				E6FBA86C24AE460A003ED9F3 /* Frameworks */,
+				E6FBA86D24AE460A003ED9F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CTFont Test";
+			productName = "CTFont Test";
+			productReference = E6FBA86F24AE460A003ED9F3 /* CTFont Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6FBA87F24AE460B003ED9F3 /* CTFont TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6FBA89724AE460B003ED9F3 /* Build configuration list for PBXNativeTarget "CTFont TestTests" */;
+			buildPhases = (
+				E6FBA87C24AE460B003ED9F3 /* Sources */,
+				E6FBA87D24AE460B003ED9F3 /* Frameworks */,
+				E6FBA87E24AE460B003ED9F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6FBA88224AE460B003ED9F3 /* PBXTargetDependency */,
+			);
+			name = "CTFont TestTests";
+			productName = "CTFont TestTests";
+			productReference = E6FBA88024AE460B003ED9F3 /* CTFont TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6FBA88A24AE460B003ED9F3 /* CTFont TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6FBA89A24AE460B003ED9F3 /* Build configuration list for PBXNativeTarget "CTFont TestUITests" */;
+			buildPhases = (
+				E6FBA88724AE460B003ED9F3 /* Sources */,
+				E6FBA88824AE460B003ED9F3 /* Frameworks */,
+				E6FBA88924AE460B003ED9F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6FBA88D24AE460B003ED9F3 /* PBXTargetDependency */,
+			);
+			name = "CTFont TestUITests";
+			productName = "CTFont TestUITests";
+			productReference = E6FBA88B24AE460B003ED9F3 /* CTFont TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6FBA86724AE460A003ED9F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E6FBA86E24AE460A003ED9F3 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					E6FBA87F24AE460B003ED9F3 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = E6FBA86E24AE460A003ED9F3;
+					};
+					E6FBA88A24AE460B003ED9F3 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = E6FBA86E24AE460A003ED9F3;
+					};
+				};
+			};
+			buildConfigurationList = E6FBA86A24AE460A003ED9F3 /* Build configuration list for PBXProject "CTFont Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6FBA86624AE460A003ED9F3;
+			productRefGroup = E6FBA87024AE460A003ED9F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6FBA86E24AE460A003ED9F3 /* CTFont Test */,
+				E6FBA87F24AE460B003ED9F3 /* CTFont TestTests */,
+				E6FBA88A24AE460B003ED9F3 /* CTFont TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6FBA86D24AE460A003ED9F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6FBA87A24AE460B003ED9F3 /* Preview Assets.xcassets in Resources */,
+				E6FBA87724AE460B003ED9F3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FBA87E24AE460B003ED9F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FBA88924AE460B003ED9F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6FBA86B24AE460A003ED9F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6FBA87524AE460A003ED9F3 /* ContentView.swift in Sources */,
+				E6FBA89E24AE718E003ED9F3 /* Custom Font (ISSUE HERE).swift in Sources */,
+				E6FBA87324AE460A003ED9F3 /* CTFont_TestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FBA87C24AE460B003ED9F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6FBA88524AE460B003ED9F3 /* CTFont_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FBA88724AE460B003ED9F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6FBA89024AE460B003ED9F3 /* CTFont_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6FBA88224AE460B003ED9F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6FBA86E24AE460A003ED9F3 /* CTFont Test */;
+			targetProxy = E6FBA88124AE460B003ED9F3 /* PBXContainerItemProxy */;
+		};
+		E6FBA88D24AE460B003ED9F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6FBA86E24AE460A003ED9F3 /* CTFont Test */;
+			targetProxy = E6FBA88C24AE460B003ED9F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E6FBA89224AE460B003ED9F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6FBA89324AE460B003ED9F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6FBA89524AE460B003ED9F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CTFont Test/Preview Content\"";
+				DEVELOPMENT_TEAM = 5YDG4FRK94;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "CTFont Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duraidabdul.CTFont-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6FBA89624AE460B003ED9F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CTFont Test/Preview Content\"";
+				DEVELOPMENT_TEAM = 5YDG4FRK94;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "CTFont Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duraidabdul.CTFont-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6FBA89824AE460B003ED9F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YDG4FRK94;
+				INFOPLIST_FILE = "CTFont TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duraidabdul.CTFont-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTFont Test.app/CTFont Test";
+			};
+			name = Debug;
+		};
+		E6FBA89924AE460B003ED9F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YDG4FRK94;
+				INFOPLIST_FILE = "CTFont TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duraidabdul.CTFont-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTFont Test.app/CTFont Test";
+			};
+			name = Release;
+		};
+		E6FBA89B24AE460B003ED9F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YDG4FRK94;
+				INFOPLIST_FILE = "CTFont TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duraidabdul.CTFont-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CTFont Test";
+			};
+			name = Debug;
+		};
+		E6FBA89C24AE460B003ED9F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YDG4FRK94;
+				INFOPLIST_FILE = "CTFont TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duraidabdul.CTFont-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CTFont Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6FBA86A24AE460A003ED9F3 /* Build configuration list for PBXProject "CTFont Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6FBA89224AE460B003ED9F3 /* Debug */,
+				E6FBA89324AE460B003ED9F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6FBA89424AE460B003ED9F3 /* Build configuration list for PBXNativeTarget "CTFont Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6FBA89524AE460B003ED9F3 /* Debug */,
+				E6FBA89624AE460B003ED9F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6FBA89724AE460B003ED9F3 /* Build configuration list for PBXNativeTarget "CTFont TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6FBA89824AE460B003ED9F3 /* Debug */,
+				E6FBA89924AE460B003ED9F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6FBA89A24AE460B003ED9F3 /* Build configuration list for PBXNativeTarget "CTFont TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6FBA89B24AE460B003ED9F3 /* Debug */,
+				E6FBA89C24AE460B003ED9F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6FBA86724AE460A003ED9F3 /* Project object */;
+}
